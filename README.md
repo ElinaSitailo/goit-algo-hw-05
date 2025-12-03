@@ -46,7 +46,7 @@ Boyer–Moore is consistently the best-performing algorithm, while Rabin–Karp 
 - Slowest in all scenarios, especially for the larger text_2.  
 - Hash recomputation introduces overhead, making single-pattern search inefficient.  
 - Performs much worse when the pattern does not exist (due to many hash comparisons). 
-- According to the https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm Rabin–Karp is practical only for **multiple-pattern searching**, not for single queries.
+- According to the [Wiki page about Rabin–Karp algorithm](https://en.wikipedia.org/wiki/Rabin%E2%80%93Karp_algorithm), this algorithm is practical only for **multiple-pattern searching**, not for single queries.
 
 ## 4. Key Insights
 
